@@ -22,14 +22,14 @@ def check(email):
 
 ## IRC Config
 server = "YourServer" # Provide a valid server IP/Hostname
-port = 6667
-channel = "YourChannell"
-botnick = "BotName"
-botnickpass = "YourBotNickPass"
-botpass = "YourBotPass"
+port = 6667 # Provide a port
+channel = "YourChannell" # change this
+botnick = "BotName" # change this
+botnickpass = "YourBotNickPass" # change this
+botpass = "YourBotPass" # change this
 irc = IRC()
 irc.connect(server, port, channel, botnick, botpass, botnickpass)
-recipient = "YourEmail"
+recipient = "YourEmail" # change this
 
 
 while True:
